@@ -3,6 +3,7 @@ dependency-sca is an open source tool performing a best effort analysis of 3rd p
 
 ### lib
 List NVD (National Vulnerability Database - NVD) CVE (Common Vulnerabilities and Exposures - CVE)
+https://drive.google.com/file/d/1ySH4pzdlm16BIOebsHiov2fsK91DDjCP/view?usp=sharing
 
 ### reports
 Result scan dependency
