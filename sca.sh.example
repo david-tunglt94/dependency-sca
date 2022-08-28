@@ -20,7 +20,7 @@ docker run --rm \
     -u $(id -u ${USER}):$(id -g ${USER}) \
     --volume $(pwd):/src:z \
     --volume "$DATA_DIRECTORY":/usr/share/dependency-check/data:z \
-    --volume $(pwd)/sca-reports:/report:z \
+    --volume $(pwd)/reports:/report:z \
     tbdavid94/sca:$DC_VERSION \
     --scan /src \
     --format "ALL" \
